@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="hero min-h-screen"
              style={{
-                 backgroundImage: 'url(./src/assets/dakota.jpeg)',
+                 backgroundImage: `url(${import.meta.env.BASE_URL}assets/dakota.jpeg)`,
              }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
