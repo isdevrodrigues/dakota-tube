@@ -16,8 +16,9 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
-
-    },
-
+    }
   },
+  build: {
+    outDir: 'dist',
+  }
 });

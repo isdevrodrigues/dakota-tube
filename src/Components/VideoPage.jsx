@@ -9,9 +9,7 @@ const VideoPage = () => {
     const [loading, setLoading] = useState(false);
 
     // Define the API URL based on the environment
-    const API_URL = import.meta.env.PROD
-        ? 'https://dakota-tube-api-production.up.railway.app/api/videos'
-        : '/api/videos';
+    const API_URL = import.meta.env.VITE_API_URL || '/api/videos';
 
     const fetchVideos = async (pageToken = '') => {
         setLoading(true);
