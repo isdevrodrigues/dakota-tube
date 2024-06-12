@@ -9,7 +9,7 @@ const VideoPage = () => {
     const [loading, setLoading] = useState(false);
 
     // Define the API URL based on the environment
-    const API_URL = import.meta.env.VITE_API_URL || '/api/videos';
+    const API_URL = import.meta.env.VITE_API_URL;
 
     const fetchVideos = async (pageToken = '') => {
         setLoading(true);
