@@ -1,7 +1,7 @@
 {
   "name": "dakota-tube",
   "private": true,
-  "homepage": "https://isdevrodrigues.github.io/dakota-tube/",
+  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
